@@ -1,0 +1,11 @@
+**/target
+**/*.iml
+**/.idea
+
+docker-vod/mysql/data/
+*.sql
+*.sqlite
+
+.env
+.env.local
+docker-compose.override.yml

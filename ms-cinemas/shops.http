@@ -1,0 +1,17 @@
+### get all shops
+GET http://localhost:8070/webapi/shops
+
+### get shops having figure
+GET http://localhost:8070/webapi/figures/1/shops
+Accept: application/json
+
+### create new shop
+POST http://localhost:8070/webapi/shops
+Content-Type: application/json
+Accept-Language: it
+Authorization: Basic dbuser1 dbuser1
+
+{
+  "name": "Kinoteka Jeszcze",
+  "logo": "https://www.kinoteka.pl/img/logo.png"
+}
