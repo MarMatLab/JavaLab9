@@ -26,7 +26,7 @@ public class ShopRest {
 
     private final ShopRepository shopRepository;
 
-    @Value("http://localhost:8080/webapi")
+    @Value("http://localhost:8090/webapi")
     private String figureServiceUrl;
 
     @GetMapping("/shops")
